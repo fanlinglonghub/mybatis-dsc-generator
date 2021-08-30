@@ -6,12 +6,14 @@
  */
 package com.github.mybatis.fl.test;
 
+import com.github.mybatis.fl.entity.BasisInfo;
+import com.github.mybatis.fl.util.EntityInfoUtil;
+import com.github.mybatis.fl.util.Generator;
+import com.github.mybatis.fl.util.MySqlToJavaUtil;
+
 import java.sql.SQLException;
 import java.util.Date;
-import com.github.flying.cattle.mdg.entity.BasisInfo;
-import com.github.flying.cattle.mdg.util.EntityInfoUtil;
-import com.github.flying.cattle.mdg.util.Generator;
-import com.github.flying.cattle.mdg.util.MySqlToJavaUtil;
+
 
 /**
  * Copyright: Copyright (c) 2019
@@ -23,7 +25,7 @@ import com.github.flying.cattle.mdg.util.MySqlToJavaUtil;
  * 源码地址：https://gitee.com/flying-cattle/mybatis-dsc-generator
  * </P>
  */
-public class MyGenerator {
+public class TestMain {
 	// 基础信息：项目名、作者、版本
 	public static final String PROJECT = "wallet-manage"; 
 	public static final String AUTHOR = "BianPeng";
